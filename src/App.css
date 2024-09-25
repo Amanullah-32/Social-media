@@ -1,0 +1,68 @@
+header{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.sidebar{
+  height: 70vh;
+  position: sticky;
+top: 4.4rem;
+  z-index: 2;
+}
+.content{
+  width: 100%;
+  display: flex;
+}
+.title{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5rem;
+}
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+}
+.delete{
+  cursor: pointer;
+
+}
+.delete:hover{
+  font-size: 1rem;
+  color: black;
+}
+.load{
+ margin: 25vh;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.create-post{
+  width: 50vh;
+  height: fit-content;
+  margin: 20px 25px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.mb-3{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.post-card{
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.tag{
+  margin: 0px 5px;
+  font-style: italic;
+}
+.react{
+  margin: 10px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
